@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .request-btn {
+  display: none;
+}
+
+.header__icon-close,
+.header__icon-hamburger {
+  cursor: pointer;
+}
+
+@media (min-width: 1440px) {
+  .header .request-btn {
+    display: inline-block;
+  }
+
+  .header__icon-close,
+  .header__icon-hamburger {
+    display: none;
+  }
+}

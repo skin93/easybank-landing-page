@@ -1,7 +1,14 @@
 import "./App.css";
+import { Articles, Hero, Reasons } from "./containers";
 
 function App() {
-  return <div>App component</div>;
+  return (
+    <>
+      <Hero />
+      <Reasons />
+      <Articles />
+    </>
+  );
 }
 
 export default App;
