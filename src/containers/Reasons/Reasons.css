@@ -1,0 +1,23 @@
+.reasons {
+  background-color: var(--color-light-grayish-blue);
+  padding-block: 3em;
+  text-align: center;
+}
+
+.reasons__title {
+  font-weight: var(--fw-400);
+  font-size: 2rem;
+}
+
+.reasons__info {
+  font-size: 0.7em;
+  margin-block: 1em 2em;
+  color: var(--color-grayish-blue);
+  font-weight: var(--fw-400);
+  line-height: 2em;
+}
+
+.reasons__list {
+  display: flex;
+  flex-direction: column;
+}

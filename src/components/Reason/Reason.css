@@ -1,0 +1,15 @@
+.reason {
+  margin-block: 1em;
+}
+
+.reason__name {
+  margin-block: 1em;
+  font-weight: var(--fw-400);
+}
+
+.reason__desc {
+  font-size: 0.7em;
+  color: var(--color-grayish-blue);
+  font-weight: var(--fw-400);
+  line-height: 2em;
+}
