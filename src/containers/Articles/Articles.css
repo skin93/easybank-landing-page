@@ -1,4 +1,6 @@
 .articles {
+  display: flex;
+  flex-direction: column;
   padding-block: 3em;
   background-color: var(--color-very-light-gray);
 }
@@ -11,8 +13,21 @@
 }
 
 .articles__list {
-  display: grid;
-  grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
-  place-content: center;
+  display: flex;
   gap: 30px;
+}
+
+@media (min-width: 1440px) {
+  .articles {
+    padding-block: 4em;
+  }
+
+  .articles__title {
+    text-align: left;
+    max-width: 45%;
+  }
+
+  .articles__list {
+    flex-direction: row;
+  }
 }
