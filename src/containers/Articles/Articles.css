@@ -1,0 +1,18 @@
+.articles {
+  padding-block: 3em;
+  background-color: var(--color-very-light-gray);
+}
+.articles__title {
+  text-align: center;
+  font-weight: var(--fw-400);
+  font-size: 2rem;
+  margin-block: 1em;
+  color: var(--color-dark-blue);
+}
+
+.articles__list {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+  place-content: center;
+  gap: 30px;
+}
