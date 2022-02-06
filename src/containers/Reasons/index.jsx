@@ -1,6 +1,6 @@
 import "./Reasons.css";
 import { reasons } from "./imports.js";
-import Reason from "../../components";
+import { Reason } from "../../components";
 
 const Reasons = () => {
   return (

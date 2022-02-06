@@ -1,4 +1,3 @@
-import "./App.css";
 import { Articles, Hero, Reasons } from "./containers";
 
 function App() {

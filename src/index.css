@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
 
 :root {
   /* layout */
@@ -18,7 +18,7 @@
 
   /* typography */
   --fs: 18px;
-  --ff-poppins: "Poppins", sans-serif;
+  --ff-poppins: "Public Sans", sans-serif;
   --fw-300: 300;
   --fw-400: 400;
   --fw-700: 700;
