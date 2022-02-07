@@ -1,7 +1,6 @@
 .footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  /* place-items: center; */
   background-color: var(--color-dark-blue);
 }
 
@@ -27,4 +26,44 @@
 
 .footer__copy {
   color: var(--color-grayish-blue);
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "logo links button"
+      "logo links button"
+      "social links copy";
+  }
+
+  .footer__logo {
+    grid-area: logo;
+  }
+
+  .footer__links {
+    grid-area: links;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    align-items: end;
+  }
+
+  .footer__copy {
+    grid-area: copy;
+    text-align: right;
+  }
+
+  .footer__social-medias {
+    grid-area: social;
+  }
+
+  .footer > .request-btn {
+    grid-area: button;
+    height: 40px;
+    width: 50%;
+    margin-left: auto;
+    margin-top: bottom;
+  }
 }
