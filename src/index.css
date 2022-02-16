@@ -38,6 +38,7 @@ html {
 
 body {
   font-family: var(--ff-poppins);
+  overflow-x: hidden;
 }
 
 ul {
