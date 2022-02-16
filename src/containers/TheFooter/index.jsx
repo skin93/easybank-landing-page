@@ -1,15 +1,11 @@
 import "./TheFooter.css";
-import { Button } from "/src/components";
+import { Button, Logo } from "/src/components";
 import { facebook, youtube, twitter, pinterest, instagram } from "./imports";
 
 const TheFooter = () => {
   return (
     <footer className="footer section-padding">
-      <img
-        className="footer__logo"
-        src="/src/assets/images/logo.svg"
-        alt="Logo"
-      />
+      <Logo color="white" />
       <div className="footer__social-medias">
         <img className="footer__social-media" src={facebook} alt="Facebook" />
         <img className="footer__social-media" src={youtube} alt="YouTube" />

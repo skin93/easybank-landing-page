@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Button, Nav } from "../../components";
+import { Button, Nav, Logo } from "../../components";
 
 import "./TheHeader.css";
 
@@ -9,11 +9,7 @@ const TheHeader = () => {
   console.log(toggle);
   return (
     <header className="header section-padding">
-      <img
-        src="src/assets/images/logo.svg"
-        className="header__logo"
-        alt="Logo"
-      />
+      <Logo />
       <Nav toggle={toggle} />
       <Button />
       {toggle ? (

@@ -1,6 +1,6 @@
 .footer {
   display: grid;
-  /* place-items: center; */
+  place-items: center;
   background-color: var(--color-dark-blue);
 }
 
@@ -30,6 +30,7 @@
 
 @media (min-width: 1440px) {
   .footer {
+    place-items: inherit;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
