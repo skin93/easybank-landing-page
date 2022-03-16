@@ -10,6 +10,7 @@
 
 .footer__social-media {
   margin-inline: 0.5em;
+  cursor: pointer;
 }
 
 .footer__links {
@@ -22,6 +23,7 @@
   color: var(--color-very-light-gray);
   margin-block: 0.5em;
   font-weight: var(--fw-400);
+  cursor: pointer;
 }
 
 .footer__copy {
