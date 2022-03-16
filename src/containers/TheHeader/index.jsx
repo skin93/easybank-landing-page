@@ -1,7 +1,9 @@
 import { useContext } from "react";
-
-import { Button, Nav, Logo } from "../../components";
 import { AppContext } from "../../context/AppContext";
+
+import hamburger from "/src/assets/images/icon-hamburger.svg";
+import close from "/src/assets/images/icon-close.svg";
+import { Button, Nav, Logo } from "../../components";
 
 import "./TheHeader.css";
 
@@ -15,14 +17,14 @@ const TheHeader = () => {
       <Button />
       {toggle ? (
         <img
-          src="src/assets/images/icon-close.svg"
+          src={close}
           className="header__icon-close"
           alt="Close"
           onClick={() => dispatch({ type: "SET_TOGGLE" })}
         />
       ) : (
         <img
-          src="src/assets/images/icon-hamburger.svg"
+          src={hamburger}
           className="header__icon-hamburger"
           alt="Hamburger"
           onClick={() => dispatch({ type: "SET_TOGGLE" })}

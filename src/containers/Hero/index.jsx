@@ -1,14 +1,11 @@
+import phones from "/src/assets/images/image-mockups.png";
 import "./Hero.css";
 import { Button } from "../../components";
 
 const Hero = () => {
   return (
     <section className="hero">
-      <img
-        className="hero__img-phones"
-        src="/src/assets/images/image-mockups.png"
-        alt="bg-intro"
-      />
+      <img className="hero__img-phones" src={phones} alt="bg-intro" />
       <div className="hero__img-background" />
       <div className="hero__content section-padding">
         <h1 className="hero__title">Next generation digital banking</h1>
