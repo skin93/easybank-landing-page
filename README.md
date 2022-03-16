@@ -1,4 +1,4 @@
-# Space Tourism Website
+# Easybank Landing Page
 Frontend challenge from Frontend Mentor
 
 ### Technologies:
