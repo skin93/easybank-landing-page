@@ -3,7 +3,7 @@ import "./Nav.css";
 const Navbar = ({ toggle }) => {
   return (
     <nav className="nav">
-      <ul className={toggle ? "nav__menu--mobile" : "nav__menu--desktop"}>
+      <ul className="nav__menu" aria-expanded={toggle}>
         <li className="nav__item">
           <a className="nav__link" href="/">
             Home

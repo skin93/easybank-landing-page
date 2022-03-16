@@ -1,3 +1,16 @@
 .main {
   position: relative;
 }
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1440px) {
+  .overlay {
+    position: unset;
+  }
+}
