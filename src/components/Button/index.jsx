@@ -1,7 +1,7 @@
 import "./Button.css";
 
 const Button = () => {
-  return <button className="request-btn gradient-bg">Request Invite</button>;
+  return <button className="request-btn">Request Invite</button>;
 };
 
 export default Button;

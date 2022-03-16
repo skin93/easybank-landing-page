@@ -7,10 +7,97 @@
   color: var(--color-white);
   font-weight: var(--fw-700);
   cursor: pointer;
-  opacity: 1;
-  transition: all 0.2s ease-in-out;
+
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(49, 211, 92, 1) 0%,
+    rgba(0, 188, 212, 1) 100%,
+    rgba(238, 130, 238, 1) 100%,
+    rgba(43, 183, 218, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(49, 211, 92, 1) 0%,
+    rgba(0, 188, 212, 1) 100%,
+    rgba(238, 130, 238, 1) 100%,
+    rgba(43, 183, 218, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(49, 211, 92, 1) 0%,
+    rgba(0, 188, 212, 1) 100%,
+    rgba(238, 130, 238, 1) 100%,
+    rgba(43, 183, 218, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2BB7DA', endColorstr='#31D35C', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(49, 211, 92, 1) 0%,
+    rgba(0, 188, 212, 1) 100%,
+    rgba(238, 130, 238, 1) 100%,
+    rgba(43, 183, 218, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(49, 211, 92, 1) 0%,
+    rgba(0, 188, 212, 1) 100%,
+    rgba(238, 130, 238, 1) 100%,
+    rgba(43, 183, 218, 1) 100%
+  );
 }
 
 .request-btn:hover {
-  opacity: 0.5;
+  ff 3.6+
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(171, 237, 189, 1) 0%,
+    rgba(43, 183, 218, 1) 100%,
+    rgba(168, 225, 240, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(171, 237, 189, 1) 0%,
+    rgba(43, 183, 218, 1) 100%,
+    rgba(168, 225, 240, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(171, 237, 189, 1) 0%,
+    rgba(43, 183, 218, 1) 100%,
+    rgba(168, 225, 240, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A8E1F0', endColorstr='#ABEDBD', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(171, 237, 189, 1) 0%,
+    rgba(43, 183, 218, 1) 100%,
+    rgba(168, 225, 240, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(171, 237, 189, 1) 0%,
+    rgba(43, 183, 218, 1) 100%,
+    rgba(168, 225, 240, 1) 100%
+  );
 }
