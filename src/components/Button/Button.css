@@ -58,7 +58,7 @@
 }
 
 .request-btn:hover {
-  ff 3.6+
+  /* ff 3.6+ */
   background: -moz-linear-gradient(
     90deg,
     rgba(171, 237, 189, 1) 0%,
